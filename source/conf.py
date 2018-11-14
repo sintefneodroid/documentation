@@ -52,8 +52,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'Neodroid'
 author = 'Christian Heider Nielsen'
-copyright = f'2017, {author}'
-
+copyright = '2017, {author}'.format(author=author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -156,7 +155,6 @@ latex_documents = [
   (master_doc,
    'Neodroid.tex',
    'Neodroid Documentation',
-
    author,
    'manual'),
   ]
